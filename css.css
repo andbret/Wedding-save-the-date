@@ -1,0 +1,467 @@
+@font-face {
+  font-family: gotham-black;
+  src: url("./fonts/gotham-black.otf") format("opentype"),
+      /* Original File */
+      url("./fonts/gotham-black.woff") format("woff"),
+      /* Modern Browsers */
+      url("./fonts/gotham-black.ttf") format("truetype");
+  /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: gotham-medium;
+  src: url("./fonts/Gotham-Medium.otf") format("opentype"),
+      /* Original File */
+      url("./fonts/Gotham-Medium.woff") format("woff"),
+      /* Modern Browsers */
+      url("./fonts/Gotham-Medium.ttf") format("truetype");
+  /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: gotham-book;
+  src: url("./fonts/gotham-book.otf") format("opentype"),
+      /* Original File */
+      url("./fonts/gotham-book.woff") format("woff"),
+      /* Modern Browsers */
+      url("./fonts/gotham-book.ttf") format("truetype");
+  /* Safari, Android, iOS */
+}
+
+@font-face {
+font-family: ceraPro-light;
+src: url("./fonts/CeraPro-light.otf") format("opentype"),
+    /* Original File */
+    url("./fonts/CeraPro-light.woff") format("woff"),
+    /* Modern Browsers */
+    url("./fonts/CeraPro-light.ttf") format("truetype");
+/* Safari, Android, iOS */
+}
+@font-face {
+font-family: CeraPro-medium;
+src: url("./fonts/CeraPro-Medium.otf") format("opentype"),
+    /* Original File */
+    url("./fonts/CeraPro-Medium.woff") format("woff"),
+    /* Modern Browsers */
+    url("./fonts/CeraPro-Medium.ttf") format("truetype");
+/* Safari, Android, iOS */
+}
+.ul{
+  padding-left: 0 !important;
+}
+.cormorant-garamond-bold {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+.btn-outline-light{
+  font-family: CeraPro-medium;
+
+}
+.btn-outline-light:hover{
+ color: rgb(158, 158, 158) !important;
+}
+
+.center{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.timtam{
+  float: center; 
+            height: 100%; 
+            display: flex; 
+            align-items: flex-end; 
+}
+.intro{
+  height: 100%; 
+  display: flex; 
+            align-items: flex-end; 
+}
+
+img{
+max-width:100% ;
+border: none !important;
+}
+
+@media (max-width: 1150px){
+.col-md-6 {
+
+    width: 50% !important;
+}
+}
+@media (max-width: 780px){
+  .col-md-6 {
+  
+      width: 100% !important;
+  }
+  .date{
+    font-size: 3.5rem !important;
+  }
+  .bbs{
+    font-size: 1rem !important;
+  }
+  }
+
+
+.btn{
+    border-radius: 999px !important;
+    
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+    background: #1E1E1E !important;
+    /* border-color: rgb(255, 58, 58) !important; */
+    /* border-width: 2px !important; */
+    /* height: 56px !important; */
+    border: none !important;
+}
+.btn {
+  box-shadow: -2px -2px 5px #2b2b2b, 2px 2px 5px #0a0a0a;
+}
+
+
+
+.btn:active {
+  box-shadow: -3px -3px 7px #2b2b2b inset, 3px 3px 7px #000000 inset!important;
+  user-select: none;
+}
+.btn:focus {
+  box-shadow: -3px -3px 7px #2b2b2b, 3px 3px 7px #000000;
+  outline: none !important;
+  border: none !important;
+
+
+ 
+  user-select: none;
+}
+
+
+
+
+@media (min-width: 576px) {
+    .container {
+      max-width: 100vh !important;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      max-width: 100% !important;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    
+    
+    .container {
+      max-width: 100% !important;
+    }
+
+}
+body{
+   background-color: #fffdff !important;
+}
+
+p{
+  font-family: ceraPro-light !important;
+    font-size: 14px;
+    color: rgb(78, 78, 78);
+    margin-bottom: 0 !important;
+}
+.fa{
+    padding: .75rem !important;
+
+    /* color: rgb(255, 58, 58) !important; */
+    font-size: 16px!important;
+   
+}
+/* .fa:hover{
+  box-shadow: -3px -3px 7px #2b2b2b inset, 3px 3px 7px #000000 inset!important;
+
+ 
+} */
+.fa-soundcloud {
+    color: rgb(255, 255, 255) !important;
+  padding-left: 13px!important;
+  padding-right: 13px !important;
+
+   
+  }
+  .fa-instagram {
+    background: #000000 !important;
+    color: rgb(255, 255, 255) !important;
+  }
+/* fix this */
+/* hr{
+    background-color: rgb(238, 238, 238) !important;
+    height: 3px !important;
+    border: none;
+} */
+.fa-m{
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 14px !important;
+}
+video{
+width: 100%;
+height: auto;
+border-radius: .5rem;
+}
+
+
+.card-img-top{
+  border-radius: 8px !important; 
+  min-width: 2rem;
+  max-width: 2rem;
+  max-height: 2rem;
+}
+
+.album{
+  width: min-content;
+  display: inline-block !important;
+  border-radius: 8px !important; 
+  padding-top: 8px;
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-bottom: 8px;
+    background-color: #F8DBFF;
+}
+
+
+
+.card-l{
+  margin: 0rem !important;
+ padding: .5rem!important;
+ background-color: none !important;
+ border-radius: 1rem !important;
+ color: none !important;
+}
+.content-l{
+  display: flex;
+  border-radius: 1rem !important; 
+  background-color: #FDF5FF !important;
+  flex-direction: column !important; 
+  align-content: center;
+  padding: .5rem !important;
+  border: 1px solid rgb(235, 235, 235);
+  height: 100%;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+
+.content-l:hover {
+  --shadow-color: 289deg 27% 62%;
+  box-shadow:
+  0.3px 0.5px 0.7px hsl(var(--shadow-color) / 0.36),
+  0.8px 1.6px 2px -0.8px hsl(var(--shadow-color) / 0.36),
+  2.1px 4.1px 5.2px -1.7px hsl(var(--shadow-color) / 0.36),
+  5px 10px 12.6px -2.5px hsl(var(--shadow-color) / 0.36);
+  ;
+}
+.imgtitle{
+  display: flex;
+  flex-direction: row !important; 
+  
+  align-items: center;
+}
+.card-title{
+  font-family: gotham-medium;
+
+  height: 100%;
+  text-align: center;
+  display: inline-block;
+  line-height: normal;
+  margin-bottom: 0px !important;
+  margin-top: 1px !important;
+  padding-left: .5rem !important;
+  color: rgb(29, 2, 21);
+}
+
+
+.Buttons{
+  padding-top: 8px;
+  display: flex;
+  gap: 12px;
+}
+
+
+
+
+
+.fa-soundcloud{
+  width: 2.5rem;
+  padding-left: .5rem !important;
+}
+
+
+
+
+
+
+.fa-spotify{
+color: #ffffff !important;
+}
+
+.card-img-top{
+  height: 100%;
+  
+}
+
+li {
+  list-style-type: none;
+
+}
+
+.card-body-l{
+
+  width: 100% !important;
+  padding: .5rem !important;
+}
+
+.video-content{
+  width: 100%;
+  padding-left: .5rem;
+  padding-top: .5rem;
+}
+
+
+.section-header{
+  font-size: 3rem;
+  color: rgb(238, 238, 238);
+  font-family: gotham-black;
+
+}
+.info{
+  height: 38.2vh;
+  flex-direction: column;
+}
+.jumbotron{
+  /* background-image: url("Rileybanner.png") !important; */
+
+  height: 61.8vh;
+  background-position: center;
+  /* display: flex; */
+  
+    width: 80%;
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#slide{
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('MAGH_PHOTOS/001.jpg');
+}
+
+
+
+.logo{
+  width: 10rem;
+}
+
+.jumbotron{
+  padding-top: 0 !important;
+  /* margin-bottom: 0 !important; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* change the audio thingy */
+
+
+
+
+
+
+.nav-item{
+  padding: 4px;
+  /* background-color: #202020; */
+  border-radius: 10rem;
+  margin: .25rem;
+
+}
+.nav-link{
+  color: #fff!important;
+  font-size: 1.25rem !important;
+}
+
+
+
+
+.CTA-BTN{
+  background-color: rgb(202, 162, 101)!important;
+  font-size: 4rem;
+  color: rgb(238, 238, 238);
+  font-family: gotham-medium;
+  box-shadow: none !important;
+  padding: 16px !important;
+ 
+}
+.CTA-BTN {
+  box-shadow: none!important;
+  user-select: none;
+}
+
+.list-group-item{
+  background-color: #202020 !important;
+  color: rgb(238, 238, 238) !important;
+padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+  font-size: 1rem;
+  font-family: gotham-medium;
+}
+
+.img-nav{
+  max-width:20px;
+  height:auto;
+
+}
+.date{
+font-size: 5.5rem;
+color: rgb(238, 238, 238) !important;
+font-family: gotham-black;
+text-shadow: -3px -3px 7px rgba(0, 0, 0, 0.3)rgba(0, 0, 0, 0.3);
+
+}
+
+.lorum{
+  font-family: ceraPro-light;
+  /* font-weight: 400; */
+  font-style: normal;
+  font-size: 1rem;
+  color: #7e7e7e;
+}
+
+.bbs{
+  font-family: gotham-black;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2rem !important;
+  color: #2c2c2c;
+  padding: .5rem;
+}
+
+ul{
+  padding-left: 2rem !important;
+  padding-top: 2rem !important;
+  padding-right: .7rem !important;
+  max-width: 100% !important;
+}
+
+.mtest{
+border: #9c9c9c;
+}
+
+a {
+  text-decoration: none !important; 
+}
