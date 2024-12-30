@@ -1,53 +1,53 @@
 @font-face {
   font-family: gotham-black;
-  src: url("./fonts/gotham-black.otf") format("opentype"),
+  src: url("./Fonts/gotham-black.otf") format("opentype"),
       /* Original File */
-      url("./fonts/gotham-black.woff") format("woff"),
+      url("./Fonts/gotham-black.woff") format("woff"),
       /* Modern Browsers */
-      url("./fonts/gotham-black.ttf") format("truetype");
+      url("./Fonts/gotham-black.ttf") format("truetype");
   /* Safari, Android, iOS */
 }
 @font-face {
   font-family: gotham-medium;
-  src: url("./fonts/Gotham-Medium.otf") format("opentype"),
+  src: url("./Fonts/Gotham-Medium.otf") format("opentype"),
       /* Original File */
-      url("./fonts/Gotham-Medium.woff") format("woff"),
+      url("./Fonts/Gotham-Medium.woff") format("woff"),
       /* Modern Browsers */
-      url("./fonts/Gotham-Medium.ttf") format("truetype");
+      url("./Fonts/Gotham-Medium.ttf") format("truetype");
   /* Safari, Android, iOS */
 }
 
 @font-face {
   font-family: gotham-book;
-  src: url("./fonts/gotham-book.otf") format("opentype"),
+  src: url("./Fonts/gotham-book.otf") format("opentype"),
       /* Original File */
-      url("./fonts/gotham-book.woff") format("woff"),
+      url("./Fonts/gotham-book.woff") format("woff"),
       /* Modern Browsers */
-      url("./fonts/gotham-book.ttf") format("truetype");
+      url("./Fonts/gotham-book.ttf") format("truetype");
   /* Safari, Android, iOS */
 }
 
 @font-face {
 font-family: ceraPro-light;
-src: url("./fonts/CeraPro-light.otf") format("opentype"),
+src: url("./Fonts/CeraPro-light.otf") format("opentype"),
     /* Original File */
-    url("./fonts/CeraPro-light.woff") format("woff"),
+    url("./Fonts/CeraPro-light.woff") format("woff"),
     /* Modern Browsers */
-    url("./fonts/CeraPro-light.ttf") format("truetype");
+    url("./Fonts/CeraPro-light.ttf") format("truetype");
 /* Safari, Android, iOS */
 }
 @font-face {
 font-family: CeraPro-medium;
-src: url("./fonts/CeraPro-Medium.otf") format("opentype"),
+src: url("./Fonts/CeraPro-Medium.otf") format("opentype"),
     /* Original File */
-    url("./fonts/CeraPro-Medium.woff") format("woff"),
+    url("./Fonts/CeraPro-Medium.woff") format("woff"),
     /* Modern Browsers */
-    url("./fonts/CeraPro-Medium.ttf") format("truetype");
+    url("./Fonts/CeraPro-Medium.ttf") format("truetype");
 /* Safari, Android, iOS */
 }
 @font-face{
   font-family: AlexBrush-regular;
-  src: url('./fonts/AlexBrush-Regular.ttf');
+  src: url('./Fonts/AlexBrush-Regular.ttf');
 }
 .ul{
   padding-left: 0 !important;
