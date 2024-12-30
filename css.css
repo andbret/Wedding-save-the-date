@@ -161,13 +161,16 @@ border: none !important;
       max-width: 100vh !important;
     }
     .bbs{
-      font-size: 3.5rem !important;
+      font-size: 3rem !important;
     }
   }
   
   @media (min-width: 768px) {
     .container {
       max-width: 100% !important;
+    }
+    .bbs{
+      font-size: 3rem !important;
     }
   }
   
@@ -484,7 +487,7 @@ text-shadow: -3px -3px 7px rgba(0, 0, 0, 0.3)rgba(0, 0, 0, 0.3);
   font-family: AlexBrush-regular;
   font-weight: 800;
   font-style: normal;
-  font-size: 5rem !important;
+  font-size: 5rem;
   color: #2c2c2c;
   padding: .5rem;
 }
