@@ -668,7 +668,10 @@ Slide In Panel
 }
 @media only screen and (max-width: 500px) {
   .date {
-    font-size: 6rem;
+    font-size: 5rem;
+  }
+  .bbs{
+    font-size: 3rem;
   }
 }
 
