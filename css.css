@@ -47,7 +47,7 @@ src: url("./Fonts/CeraPro-Medium.otf") format("opentype"),
 }
 @font-face{
   font-family: AlexBrush-regular;
-  src: url('./Fonts/AlexBrush-Regular.ttf');
+  src: url('./Fonts/AlexBrush-Regular.ttf') format("truetype");
 }
 .ul{
   padding-left: 0 !important;
