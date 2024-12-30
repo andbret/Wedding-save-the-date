@@ -160,6 +160,9 @@ border: none !important;
     .container {
       max-width: 100vh !important;
     }
+    .bbs{
+      font-size: 3.5rem !important;
+    }
   }
   
   @media (min-width: 768px) {
@@ -485,6 +488,7 @@ text-shadow: -3px -3px 7px rgba(0, 0, 0, 0.3)rgba(0, 0, 0, 0.3);
   color: #2c2c2c;
   padding: .5rem;
 }
+
 .bbs2{
   font-family: AlexBrush-regular;
   font-weight: 800;
