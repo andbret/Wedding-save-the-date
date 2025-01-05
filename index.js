@@ -2,7 +2,7 @@
 var yourAudio = document.getElementById('yourAudio'),
 ctrl = document.getElementById('audioControl');
 
-var images = ['MAGH_PHOTOS/001.jpg', 'MAGH_PHOTOS/003.jpg', 'MAGH_PHOTOS/002.jpg'];
+var images = ['MAGH_PHOTOS/001.jpg', 'MAGH_PHOTOS/002.jpg', 'MAGH_PHOTOS/003.jpg' , 'MAGH_PHOTOS/004.jpg'];
 
 var index  = 0;
 var $top   = $('#slide');
