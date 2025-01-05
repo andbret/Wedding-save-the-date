@@ -2,13 +2,13 @@
 var yourAudio = document.getElementById('yourAudio'),
 ctrl = document.getElementById('audioControl');
 
-var images = ['MAGH_PHOTOS/002.jpg', 'MAGH_PHOTOS/003.jpg', 'MAGH_PHOTOS/002.jpg'];
+var images = ['MAGH_PHOTOS/001.jpg', 'MAGH_PHOTOS/003.jpg', 'MAGH_PHOTOS/002.jpg'];
 
 var index  = 0;
 var $top   = $('#slide');
 
 setInterval(function() {
-   $top.animate({ fadeIn: 0 }, 2000, function() {
+   $top.animate({ fadeIn: 0 }, 0, function() {
      $top.css('background-image', 'linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('+images[++index]+')');
      $top.animate({ fadeIn: 0 }, 0, function() {
        if(index === images.length-1) index = 0;

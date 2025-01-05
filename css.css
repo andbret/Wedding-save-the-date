@@ -70,10 +70,14 @@ src: url("./Fonts/CeraPro-Medium.otf") format("opentype"),
 
 } */
 .btn-light{
-  background-color: #fbecff !important;
+  background-color: #ffffff !important;
+  font-size: 1.2rem !important;
+    border-radius: .5rem !important; 
+    border: 1px solid rgb(207, 207, 207) !important;
+
 }
 .btn-light:hover{
-  background-color: #decbe4 !important;
+  background-color: #f9e6ff !important;
  color: rgb(24, 24, 24) !important;
 }
 
@@ -686,7 +690,7 @@ Slide In Panel
     padding-left: 1rem !important;
     padding-right: 1rem !important;
 }
-
+}
 @media only screen and (min-width: 768px) {
   .mix-panel__header {
     width: 70%;
@@ -972,5 +976,3 @@ Slide In Panel
   font-weight: 800;
   font-style: normal;
 }
-
-
