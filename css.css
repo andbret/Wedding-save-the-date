@@ -366,6 +366,7 @@ li {
   padding: 3rem !important;
  height: 100%;
   flex-direction: column;
+  background-color: #FDF5FF !important;
 }
 .jumbotron{
   background-image: url('MAGH_PHOTOS/001.jpg') !important;
