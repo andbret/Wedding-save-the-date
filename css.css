@@ -363,6 +363,8 @@ li {
   flex-direction: column;
 }
 .note{
+  border: 1px solid rgb(235, 235, 235) !important;
+
   padding: 3rem !important;
  height: 100%;
   flex-direction: column;
