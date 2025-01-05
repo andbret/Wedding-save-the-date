@@ -692,7 +692,7 @@ Slide In Panel
 }
 .jumbotron{
 
-  height: 50vh;
+  height: 50vh !important;
   /* display: flex; */
   
     width: 80%;
