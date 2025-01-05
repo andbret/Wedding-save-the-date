@@ -499,6 +499,7 @@ text-shadow: -3px -3px 7px rgba(0, 0, 0, 0.3)rgba(0, 0, 0, 0.3);
   font-size: 3rem !important;
   color: #2c2c2c;
   padding: .5rem;
+  text-align: center;
 }
 
 .mix-main-content{
@@ -676,6 +677,14 @@ Slide In Panel
   .bbs{
     font-size: 3rem !important;
   }
+  .message{
+    display: flex;
+    border-radius: 1rem !important; 
+    /* background-color: #FDF5FF !important; */
+    /* flex-direction: column !important;  */
+    align-content: center;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
 }
 
 @media only screen and (min-width: 768px) {
