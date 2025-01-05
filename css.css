@@ -690,6 +690,14 @@ Slide In Panel
     padding-left: 1rem !important;
     padding-right: 1rem !important;
 }
+.jumbotron{
+
+  height: 50vh;
+  /* display: flex; */
+  
+    width: 80%;
+   
+}
 }
 @media only screen and (min-width: 768px) {
   .mix-panel__header {
