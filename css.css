@@ -368,7 +368,7 @@ li {
   flex-direction: column;
 }
 .jumbotron{
-  /* background-image: url("Rileybanner.png") !important; */
+  background-image: url('MAGH_PHOTOS/001.jpg') !important;
 
   height: 61.8vh;
   background-position: center;
