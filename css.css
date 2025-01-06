@@ -77,7 +77,7 @@ src: url("./Fonts/CeraPro-Medium.otf") format("opentype"),
 
 }
 .btn-light:hover{
-  background-color: #dfece3 !important;
+  background-color: #f0e7e3 !important;
  color: rgb(24, 24, 24) !important;
 }
 
