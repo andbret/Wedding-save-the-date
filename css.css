@@ -958,6 +958,11 @@ Slide In Panel
 .sub-content{
   margin-bottom: 2rem;
 }
+.sub-content{
+  margin-bottom: 2rem;
+  /* display: flex !important;
+  flex-direction: column !important; */
+}
 
 .mix-panel__header{
   font-family: "EB Garamond" !important;
